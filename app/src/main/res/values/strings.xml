@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bhajan</string>
+    <string name="country_prompt">Choose a country</string>
+    <string-array name="country_arrays">
+        <item>English</item>
+        <item>Hindi</item>
+    </string-array>
+    <string name="title_activity_switch_tab">SwitchTab</string>
+    <string name="tab_text_1">AARTI</string>
+    <string name="tab_text_2">
+        LIBRARY
+    </string>
+</resources>
