@@ -4,4 +4,7 @@
     <color name="colorBackground">		#F5DEB3</color>
     <color name="colorPrimaryDark">#A52A2A</color>
     <color name="colorAccent">#A52A2A</color>
+    <color name="colorMorning">#FDB813</color>
+    <color name="colorNoon">#87CEEB</color>
+    <color name="colorEvening">#2a293e</color>
 </resources>

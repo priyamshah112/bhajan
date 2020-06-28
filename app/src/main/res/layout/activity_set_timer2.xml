@@ -4,18 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackground"
     tools:context=".SetTimer">
 
-<!--    <TextView-->
-<!--        android:id="@+id/textView2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentTop="true"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        android:text="@string/time_pick"-->
-<!--        android:background="@color/colorPrimary"-->
-<!--        android:textAppearance="?android:attr/textAppearanceMedium"-->
-<!--        android:backgroundTint="@color/colorPrimary"/>-->
 
     <Button
         android:id="@+id/set_button"
@@ -36,6 +27,7 @@
         android:layout_height="450dp"
         android:layout_above="@+id/set_button"
         android:layout_marginBottom="107dp"
+        android:background="@color/colorBackground"
         android:amPmBackgroundColor="@color/colorPrimary" />
 
     <TextView

@@ -7,42 +7,35 @@
     android:background="@color/colorBackground"
     tools:context=".HomeActivity">
 
+
     <TextView
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="91dp"
-        android:layout_marginBottom="501dp"
+        android:gravity="center"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="490dp"
         android:text="Select Language"
         android:textColor="@color/colorPrimary"
         android:textSize="30sp"
         android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="359dp"
-        android:layout_height="247dp"
-        android:layout_above="@+id/btnSubmit"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="205dp"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="94dp"
-        android:padding="40dip">
-
-        <Spinner
+    <Spinner
             android:id="@+id/spinner1"
-            android:layout_width="255dp"
-            android:layout_height="62dp"
-            android:layout_above="@+id/btnSubmit"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="86dp"
-            android:layout_marginBottom="189dp"
-            android:entries="@array/country_arrays"
-            android:prompt="@string/country_prompt"
-            android:textSize="50dp" />
-    </LinearLayout>
+            android:layout_width="245dp"
+            android:layout_height="61dp"
+            android:layout_centerInParent="true"
+            android:background="@color/colorBackground"
+            android:popupBackground="@color/colorBackground"
+            android:entries="@array/language_array"
+            android:prompt="@string/language_prompt"
+            android:paddingStart="80dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+
 
     <Button
         android:id="@+id/btnSubmit"

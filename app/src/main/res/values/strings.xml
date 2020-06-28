@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Bhajan</string>
-    <string name="country_prompt">Choose a country</string>
-    <string-array name="country_arrays">
+    <string name="language_prompt">Select a language</string>
+    <string-array name="language_array">
         <item>English</item>
         <item>Hindi</item>
     </string-array>
