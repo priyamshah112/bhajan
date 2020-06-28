@@ -27,7 +27,7 @@ public class PlaySong extends AppCompatActivity {
                 mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                     @Override
                     public void onCompletion(MediaPlayer mp) {
-                        Toast.makeText(PlaySong.this, "The Song is Over", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(PlaySong.this, "The Song is Over", Toast.LENGTH_SHORT).show();
                     }
                 });
             }

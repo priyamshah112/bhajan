@@ -8,28 +8,41 @@
     tools:context=".HomeActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/spinner1"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="143dp"
-        android:layout_marginBottom="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="501dp"
         android:text="Select Language"
         android:textColor="@color/colorPrimary"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="247dp"
         android:layout_above="@+id/btnSubmit"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="200dp"
-        android:entries="@array/country_arrays"
-        android:textSize="30sp"
-        android:prompt="@string/country_prompt" />
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="94dp"
+        android:padding="40dip">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="255dp"
+            android:layout_height="62dp"
+            android:layout_above="@+id/btnSubmit"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="189dp"
+            android:entries="@array/country_arrays"
+            android:prompt="@string/country_prompt"
+            android:textSize="50dp" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/btnSubmit"

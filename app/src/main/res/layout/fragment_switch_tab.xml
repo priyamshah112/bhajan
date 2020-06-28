@@ -9,52 +9,93 @@
 
     <TextView
         android:id="@+id/section_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginEnd="@dimen/activity_horizontal_margin"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="0dp"
+        android:layout_height="176dp"
+        android:layout_marginLeft="176dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintTop_creator="1" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="100dp"
-        android:src="@drawable/splash_image"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <ImageButton
+    <Button
         android:id="@+id/imageButton2"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="32dp"
-        android:src="@drawable/splash_image"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="282dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Afternoon"
         app:layout_constraintBottom_toTopOf="@+id/imageButton"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton3"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="32dp"
-        android:src="@drawable/splash_image"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="282dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Morning"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/imageButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="282dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/btnSubmit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="248dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Evening Bhajan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <!--    <ImageButton-->
+<!--        android:id="@+id/imageButton"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginEnd="104dp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:src="@drawable/splash_image"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton2"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginEnd="100dp"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:src="@drawable/splash_image"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageButton"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton3"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginEnd="104dp"-->
+<!--        android:layout_marginBottom="32dp"-->
+<!--        android:src="@drawable/splash_image"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/imageButton2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -41,10 +41,10 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(HomeActivity.this,
-                        "OnClickListener : " +
-                                "\nSpinner 1 : "+ String.valueOf(spinner1.getSelectedItem()),
-                        Toast.LENGTH_SHORT).show();
+                //Toast.makeText(HomeActivity.this,
+                 //       "OnClickListener : " +
+                 //               "\nSpinner 1 : "+ String.valueOf(spinner1.getSelectedItem()),
+                 //       Toast.LENGTH_SHORT).show();
                 Intent myIntent = new Intent(HomeActivity.this,SetNotifier.class);
                 startActivity(myIntent);
                 myIntent.putExtra("language", String.valueOf(spinner1.getSelectedItem()));
